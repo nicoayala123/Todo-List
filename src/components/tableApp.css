@@ -1,0 +1,71 @@
+.todoContainer {
+    width: 500px;
+    margin: 100px auto;  
+    display: flex;
+    flex-direction: column;
+  }
+
+  .todoBox {
+    border: 2px solid #95a8e9;
+    background-color: white;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .tittleTodo {
+      color:black;
+      font-size: 10px;
+      font-family: serif;
+      text-align: left;
+  }
+
+  .editIcon {
+    color: rgb(25 118 210 / 91%);
+    cursor: pointer;
+  }
+  
+  .todoCreateForm {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .todoInput {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px #999;
+  }
+  
+  .todosContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .todo {
+    border-bottom: 1px solid #ccc; 
+    padding: 10px;
+    background-color: white;
+  }
+
+  .errorMessage {
+    color: rgb(253, 38, 38, 1);
+  }
+  
+  .todoTitle {
+    flex: 1;
+    font-size: 20px;
+    text-align: left;
+  }
+  .todoUpdateForm,
+  .todoInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+ 
